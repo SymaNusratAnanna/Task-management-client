@@ -1,12 +1,11 @@
 import React from 'react';
 
-const CompleteTask = ({completeTask}) => {
+const CompleteTask = ({completeTask,task}) => {
     return (
         <div>
-            <h2>item :{completeTask.length}</h2>
+            
             {
-                completeTask.map(task=><p>{task.name}
-                </p>)
+                completeTask.map(task=><p>{task.name}</p>)
             }
         </div>
     );

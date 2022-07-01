@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 const Navbar = () => {
     return (
         <div>
-            <div class="navbar bg-base-100">
+            <div class="navbar bg-base-100 top-sticky">
   <div class="navbar-start">
     <div class="dropdown">
       <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -19,7 +19,7 @@ const Navbar = () => {
         
       </ul>
     </div>
-    <a class="btn btn-ghost normal-case text-xl">Task
+    <a class="btn btn-ghost normal-case text-xl">Task-Track
     
     </a>
   </div>

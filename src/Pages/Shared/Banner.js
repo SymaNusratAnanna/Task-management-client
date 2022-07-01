@@ -1,12 +1,12 @@
 import React from 'react';
-import bannner1 from '../../assests/banner.jfif';
-import bannner2 from '../../assests/banner2.jfif';
-import bannner3 from '../../assests/banner3.png';
+import bannner1 from '../../assests/bann1.jpg';
+import bannner2 from '../../assests/bann2.jpg';
+import bannner3 from '../../assests/bann3.jpg';
 
 const Banner = () => {
     return (
         <div>
-            <div class="carousel w-full">
+            <div class="carousel w-full h-full">
   <div id="slide1" class="carousel-item relative w-full">
     <img src={bannner1} class="w-full" />
     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

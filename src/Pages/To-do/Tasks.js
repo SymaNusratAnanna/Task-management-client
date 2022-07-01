@@ -12,7 +12,7 @@ const Tasks = () => {
     },[])
 
     const handleAddToComplete = (selectedItem)=>{
-        // console.log(selectedItem);
+        console.log(selectedItem);
     }
     return (
 
