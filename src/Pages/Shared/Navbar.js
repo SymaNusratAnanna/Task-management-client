@@ -13,7 +13,7 @@ const Navbar = () => {
       <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
         <li><Link to ="/">Home</Link></li>
         <li><Link to ="/complete">Completed task</Link></li>
-        <li><Link to ="/todo">To Do</Link></li>
+        <li><Link to ="/tasks">To Do</Link></li>
         <li><Link to ="/calender">Calender</Link></li>
        
         
@@ -27,13 +27,13 @@ const Navbar = () => {
     <ul class="menu menu-horizontal p-0">
     <li><Link to ="/">Home</Link></li>
         <li><Link to ="/complete">Completed task</Link></li>
-        <li><Link to ="/todo">To Do</Link></li>
+        <li><Link to ="/tasks">To Do</Link></li>
         <li><Link to ="/calender">Calender</Link></li>
        
     </ul>
   </div>
   <div class="navbar-end">
-    <a class="btn">Get started</a>
+   
   </div>
 </div>
         </div>

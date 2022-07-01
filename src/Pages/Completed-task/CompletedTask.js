@@ -1,9 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
+import CompleteTask from './CompleteTask';
 
 const CompletedTask = () => {
+    const [completeTask, setCompleteTask] = useState([]);
+
+    const handleAddToComplete = (selectedItem) =>{
+        const newcompleteTask = [...completeTask, selectedItem];
+        setCompleteTask(newcompleteTask);
+        // console.log(selectedItem);
+    }
     return (
         <div>
-            <h1>complited task</h1>
+            
+           
+          <CompleteTask completeTask={completeTask}></CompleteTask>
         </div>
     );
 };
